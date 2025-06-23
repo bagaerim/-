@@ -1,0 +1,97 @@
+body {
+  font-family: "맑은 고딕", Malgun Gothic, Arial, sans-serif;
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #f0f8f5;
+  padding: 20px;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #04a148;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #04a148;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #037a34;
+}
+
+.results h2, .details h2 {
+  border-bottom: 2px solid #04a148;
+  padding-bottom: 5px;
+}
+
+#resultsContainer p {
+  font-size: 16px;
+  color: #555;
+}
+
+.beverage {
+  background-color: white;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.beverage:hover {
+  background-color: #e6f5e9;
+}
+
+.details {
+  background-color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.details img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.details h3 {
+  color: #04a148;
+  margin-bottom: 10px;
+}
+
+.details p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
