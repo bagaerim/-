@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>음료수 착향료 검색 + 상세정보</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>음료수 착향료 검색</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="음료수 이름을 입력하세요" />
+      <button id="searchBtn">검색</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="results">
+      <h2>검색 결과</h2>
+      <div id="resultsContainer">
+        <p>검색어를 입력하고 검색 버튼을 눌러주세요.</p>
+      </div>
+    </section>
+
+    <section class="details" id="detailsSection" style="display:none;">
+      <h2>음료 상세 정보</h2>
+      <div id="detailsContainer"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
